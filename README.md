@@ -14,7 +14,7 @@ Extension videos will come out on request - or maybe you want to share one?
 ## Part 2: Party Like It's 1999
 1. If you're brand new to GitHub, take a look at [CSK #001](https://github.com/workshop-maybe/sk01-leave-your-mark)
 2. When you're ready, clone the repository [CSK #003a](https://github.com/workshop-maybe/sk003a)
-3. Edit the HTML
+3. Edit the HTML - you could just make all the changes in GitHub, but we'll use codepen because it updates live. Check out the CSS and JS here.
 4. Style the HTML
 5. Import a font from Google Fonts
 6. Add a little bit of JavaScript: interaction, logic
