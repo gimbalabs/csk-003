@@ -13,10 +13,10 @@ Extension videos will come out on request - or maybe you want to share one?
 ---
 
 ## Part 2: Party Like It's 1999
-1. If you're brand new to GitHub, take a look at [CSK #001](https://github.com/workshop-maybe/sk01-leave-your-mark)
-2. When you're ready, clone the repository [CSK #003a](https://github.com/workshop-maybe/sk003a)
+1. If you're brand new to GitHub, take a look at [CSK #001](https://workshopmaybe.com/learn/cardano-starter-kits/starter-kit-001/starter-kit-001a/)
+2. When you're ready, fork the repository [CSK #003a](https://github.com/GimbaLabs/csk003a) to your GitHub account
 3. Enable [GitHub Pages](https://pages.github.com/), and just like that, you have a web page!
-4. Edit the HTML - let's go to [Codepen](https://codepen.io/)
+4. Edit the HTML on [Codepen](https://codepen.io/)
 5. Style the HTML with CSS
 6. Import a font from [Google Fonts](https://fonts.google.com/)
 7. Use JavaScript to add some interactivity and program logic
