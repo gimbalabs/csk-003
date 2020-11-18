@@ -6,22 +6,25 @@ Extension videos will come out on request - or maybe you want to share one?
 ---
 
 ## Part 1: Introduction
-- link to video
-- Deck
+- CSK videos are currently hosted on [YouTube](http://youtube.com)
+- Deck: pdf and Markdown files are here
+- Solutions are provided, but of course it's better not to look
 
 ---
 
 ## Part 2: Party Like It's 1999
 1. If you're brand new to GitHub, take a look at [CSK #001](https://github.com/workshop-maybe/sk01-leave-your-mark)
 2. When you're ready, clone the repository [CSK #003a](https://github.com/workshop-maybe/sk003a)
-3. Edit the HTML - you could just make all the changes in GitHub, but we'll use codepen because it updates live. Check out the CSS and JS here.
-4. Style the HTML
-5. Import a font from Google Fonts
-6. Add a little bit of JavaScript: interaction, logic
+3. Enable [GitHub Pages](https://pages.github.com/), and just like that, you have a web page!
+4. Edit the HTML - let's go to [Codepen](https://codepen.io/)
+5. Style the HTML with CSS
+6. Import a font from [Google Fonts](https://fonts.google.com/)
+7. Use JavaScript to add some interactivity and program logic
 
 ### Extensions: 
-- add an image to this page
-- Take a look at [Free Code Camp](https://www.freecodecamp.org/) you just can't go wrong here!
+- Add an image to this page
+- Embed a YouTube video to this page
+- Take a look at [Free Code Camp](https://www.freecodecamp.org/) to learn HTML, CSS and/or JavaScript
 
 ---
 
