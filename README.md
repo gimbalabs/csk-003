@@ -14,14 +14,9 @@ Extension videos will come out on request - or maybe you want to share one?
 
 ## Part 2: Party Like It's 1999
 1. If you're brand new to GitHub, take a look at [CSK #001](https://workshopmaybe.com/learn/cardano-starter-kits/starter-kit-001/starter-kit-001a/)
-2. When you're ready, copy the template repository [CSK #003a](https://github.com/GimbaLabs/csk003a) to your GitHub account
-3. Follow along with [this video]()
-
-### Extensions: 
-- Add an image to this page
-- Embed a YouTube video to this page
-- Take a look at [Free Code Camp](https://www.freecodecamp.org/) to learn HTML, CSS and/or JavaScript
-
+2. Follow along with [this video]()
+3. When you're ready, copy the template repository [CSK #003a](https://github.com/GimbaLabs/csk003a) to your GitHub account
+ 
 ---
 
 ## Part 3: Getting Ready is the Hardest Part
