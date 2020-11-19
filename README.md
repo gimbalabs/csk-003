@@ -39,11 +39,11 @@ The tools we'll use are choices, and we could choose others ([except perhaps for
 
 1. Learn by doing: today we will use the command line
 2. Real developer skills: searching, copying + pasting, and [asking the right questions](https://stackoverflow.com/).
-2. Install [Visual Studio Code](https://code.visualstudio.com/)
-3. [Install Node](https://nodejs.org/en/), or read the [Visual Studio Code tutorial on Node](https://code.visualstudio.com/docs/nodejs/nodejs-tutorial)
-4. Check versions: Git, Node, npm
-5. Viewing HTML files
-6. Running JavaScript files using Node
+3. Install [Visual Studio Code](https://code.visualstudio.com/)
+4. In Visual Studio Code, clone the CSK #003a repo and view the HTML files
+5. On the command line, check versions of Node, npm and git
+6. [Install Node](https://nodejs.org/en/), or read the [Visual Studio Code tutorial on Node](https://code.visualstudio.com/docs/nodejs/nodejs-tutorial)
+7. Running JavaScript files using Node
 
 ### Extensions:
 - Take a look at the [Visual Studio Code documentation](https://code.visualstudio.com/docs)
