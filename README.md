@@ -54,10 +54,11 @@ The tools we'll use are choices, and we could choose others ([except perhaps for
 ---
 
 ## Part 4: Let's Build an App!
-1. Create React App
-2. Bootstrap (document these steps)
-3. Axios
-4. What we're doing
+1. Why I love [npm](https://www.npmjs.com/) 
+2. Create React App
+3. Bootstrap (document these steps)
+4. Axios
+5. What we're doing
 
 Note the role of npm, want to go down that rabbit hole?
 Note that "hooks" are new, and were actually hard to learn, because devs had to unlearn certain things. You could say you're at an advantage if you're new here.
