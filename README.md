@@ -3,6 +3,18 @@
 Long video with bookmarks
 Extension videos will come out on request - or maybe you want to share one?
 
+## Learning Targets
+- I understand the role of a blockchain in a development stack.
+- I can describe the role of HTML, CSS, and JavaScript in web development.
+- I can use GitHub Pages to publish a basic web page.
+- I can set up a development environment on my computer.
+- I can create a web app that calls on and displays external data based on user input.
+
+## Outcomes
+At the end of this Cardano Starter Kit, you will
+- Know enough about development to understand what you need when you have an idea that you want to build.
+- Be on your journey toward learning more about building web apps.
+
 ---
 
 ## Part 1: Introduction
@@ -13,14 +25,15 @@ Extension videos will come out on request - or maybe you want to share one?
 ---
 
 ## Part 2: Party Like It's 1999
+To prepare to build a modern app, let's go back in time to build a basic web page using HTML, CSS and JavaScript.
 1. If you're brand new to GitHub, take a look at [CSK #001](https://workshopmaybe.com/learn/cardano-starter-kits/starter-kit-001/starter-kit-001a/)
 2. Follow along with [this video]()
 3. When you're ready, copy the template repository [CSK #003a](https://github.com/GimbaLabs/csk003a) to your GitHub account
  
 ---
 
-## Part 3: You Have Superpowers
-I find that preparing to make software is much harder than writing the code itself. In this part, we're going to take a whirlwind tour of how to get ready to build something.
+## Part 3: Now We're Cooking
+When you're getting started, you might find that preparing to make software is harder than writing the code itself. Let's take a whirlwind tour of how to get ready to build something.
 
 The tools we'll use are choices, and we could choose others ([except perhaps for Node.js](https://medium.com/techinpieces/a-world-without-node-js-12fec4b18733)). Here, I'm choosing tools that are popular and accessible. If you're wondering what else is out there, follow that curiosity! Soon, you'll be replacing your Netflix diet by reading documentation and watching tutorial videos on all the different options.
 
