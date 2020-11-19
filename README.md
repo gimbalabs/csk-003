@@ -49,7 +49,11 @@ The tools we'll use are choices, and we could choose others ([except perhaps for
 - Take a look at the [Visual Studio Code documentation](https://code.visualstudio.com/docs)
 - Learn more about [Node at The Odin Project](https://www.theodinproject.com/courses/nodejs)
 - Learn more about the [Command Line at codecademy](https://www.codecademy.com/learn/learn-the-command-line) or at [Learn Enough Command Line to Be Dangerous](https://www.learnenough.com/command-line-tutorial/basics)
-- Read about [installing the Cardano node from source](https://docs.cardano.org/projects/cardano-node/en/latest/getting-started/install.html), and join us on Discord to ask questions.
+- Read about [installing the Cardano node from source](https://docs.cardano.org/projects/cardano-node/en/latest/getting-started/install.html).
+
+### How you can help:
+- [Join us on Discord to ask questions and give feedback](https://discord.gg/dErH6vS). What sorts of documentation would you like to see here?
+- Create a video about how to set up Visual Studio Code and Node on Windows
 
 ---
 
