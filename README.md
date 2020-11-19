@@ -38,7 +38,7 @@ When you're getting started, you might find that preparing to make software is h
 The tools we'll use are choices, and we could choose others ([except perhaps for Node.js](https://medium.com/techinpieces/a-world-without-node-js-12fec4b18733)). In Parts 3 and 4 of this CSK, I'm choosing tools that are popular and accessible. If you're wondering what else is out there, follow that curiosity! Soon, you'll be replacing your Netflix diet with reading documentation and watching tutorial videos on all the different options.
 
 1. Learn by doing: today we will use the command line
-2. Real developer skills: searching, copying + pasting, and asking the right questions.
+2. Real developer skills: searching, copying + pasting, and [asking the right questions](https://stackoverflow.com/).
 2. Install [Visual Studio Code](https://code.visualstudio.com/)
 3. [Install Node](https://nodejs.org/en/), or read the [Visual Studio Code tutorial on Node](https://code.visualstudio.com/docs/nodejs/nodejs-tutorial)
 4. Check versions: Git, Node, npm
