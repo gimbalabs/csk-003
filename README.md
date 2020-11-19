@@ -19,7 +19,7 @@ Extension videos will come out on request - or maybe you want to share one?
  
 ---
 
-## Part 3: Getting Ready is the Hardest Part
+## Part 3: You Have Superpowers
 I find that preparing to make software is much harder than writing the code itself. In this part, we're going to take a whirlwind tour of how to get ready to build something.
 
 The tools we'll use are choices, and we could choose others ([except perhaps for Node.js](https://medium.com/techinpieces/a-world-without-node-js-12fec4b18733)). Here, I'm choosing tools that are popular and accessible. If you're wondering what else is out there, follow that curiosity! Soon, you'll be replacing your Netflix diet by reading documentation and watching tutorial videos on all the different options!
