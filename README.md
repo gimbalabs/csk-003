@@ -1,7 +1,8 @@
 # Cardano Starter Kit #003
 
-Long video with bookmarks
-Extension videos will come out on request - or maybe you want to share one?
+You should use this Cardano Starter Kit if
+- You're brand new to web development and need a place to start
+- You have ideas for businesses and Dapps to be built on Cardano, and you're trying to get an idea of what that might entail
 
 ## Learning Targets
 - I understand the role of a blockchain in a development stack.
