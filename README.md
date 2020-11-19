@@ -24,13 +24,15 @@ Call it a personal opinion, but I find that preparing to make software is much h
 
 The tools we'll use are choices, and we could easily make others. Here, I'm choosing tools that are popular and accessible. If you're curious about what else is out there, more power to you! Soon, you'll be replacing your Netflix diet with how-to videos on all the different options.
 
-1. Install Visual Studio Code
-2. Command line basics
-3. Install Node
+1. We will use the command line today. Here are some basics.
+2. Searching, copy-pasting, and asking the right questions.
+2. Install [Visual Studio Code](https://code.visualstudio.com/)
+3. [Install Node](https://nodejs.org/en/)
 4. Check versions: Git, Node, npm
 
 ### Extensions:
-- Access your GitHub account from the command line
+- Learn more about the [Command Line](https://www.codecademy.com/learn/learn-the-command-line)
+Access your GitHub account from the command line
 
 ---
 
