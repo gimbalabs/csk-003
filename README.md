@@ -24,8 +24,8 @@ I find that preparing to make software is much harder than writing the code itse
 
 The tools we'll use are choices, and we could choose others ([except perhaps for Node.js](https://medium.com/techinpieces/a-world-without-node-js-12fec4b18733)). Here, I'm choosing tools that are popular and accessible. If you're wondering what else is out there, follow that curiosity! Soon, you'll be replacing your Netflix diet by reading documentation and watching tutorial videos on all the different options.
 
-1. Learn by doing: today we will use the command line.
-2. Searching, copy-pasting, and asking the right questions.
+1. Learn by doing: today we will use the command line
+2. Searching, copying + pasting, and asking the right questions.
 2. Install [Visual Studio Code](https://code.visualstudio.com/)
 3. [Install Node](https://nodejs.org/en/), or read the [Visual Studio Code tutorial on Node](https://code.visualstudio.com/docs/nodejs/nodejs-tutorial)
 4. Check versions: Git, Node, npm
@@ -53,4 +53,7 @@ Note that "hooks" are new, and were actually hard to learn, because devs had to 
 - Style your app to make it look better
 - Add a different font
 - Call additional data from Messari.io and add it to the app
+
+### Challenge:
+- Access your GitHub account from the command line and deploy your App to GitHub Pages. Here's an example. If enough people try this, I'll make a video about it.
 
