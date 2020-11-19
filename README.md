@@ -22,21 +22,21 @@ Extension videos will come out on request - or maybe you want to share one?
 ## Part 3: Getting Ready is the Hardest Part
 I find that preparing to make software is much harder than writing the code itself. In this part, we're going to take a whirlwind tour of how to get ready to build something.
 
-The tools we'll use are choices, and we could easily make others. Here, I'm choosing tools that are popular and accessible. If you're curious about what else is out there, more power to you! Soon, you'll be replacing your Netflix diet with how-to videos on all the different options.
+The tools we'll use are choices, and we could choose others ([except perhaps for Node.js](https://medium.com/techinpieces/a-world-without-node-js-12fec4b18733)). Here, I'm choosing tools that are popular and accessible. If you're curious about what else is out there, more power to you! Soon, you'll be replacing your Netflix diet with how-to videos on all the different options.
 
 1. We will use the command line today. Here are some basics.
 2. Searching, copy-pasting, and asking the right questions.
 2. Install [Visual Studio Code](https://code.visualstudio.com/)
-3. [Install Node](https://nodejs.org/en/)
+3. [Install Node](https://nodejs.org/en/), or read the [Visual Studio Code tutorial on Node](https://code.visualstudio.com/docs/nodejs/nodejs-tutorial)
 4. Check versions: Git, Node, npm
 5. Viewing HTML files
-6. Running JavaScript files
+6. Running JavaScript files using Node
 
 ### Extensions:
 - Take a look at the [Visual Studio Code documentation](https://code.visualstudio.com/docs)
 - Learn more about [Node at The Odin Project](https://www.theodinproject.com/courses/nodejs)
 - Learn more about the [Command Line at codecademy](https://www.codecademy.com/learn/learn-the-command-line) or at [Learn Enough Command Line to Be Dangerous](https://www.learnenough.com/command-line-tutorial/basics)
-- Read about [installing the Cardano node from source](https://docs.cardano.org/projects/cardano-node/en/latest/getting-started/install.html), and join us on Discord to ask questions about.
+- Read about [installing the Cardano node from source](https://docs.cardano.org/projects/cardano-node/en/latest/getting-started/install.html), and join us on Discord to ask questions.
 
 ---
 
