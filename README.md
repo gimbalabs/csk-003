@@ -24,7 +24,7 @@ I find that preparing to make software is much harder than writing the code itse
 
 The tools we'll use are choices, and we could choose others ([except perhaps for Node.js](https://medium.com/techinpieces/a-world-without-node-js-12fec4b18733)). Here, I'm choosing tools that are popular and accessible. If you're wondering what else is out there, follow that curiosity! Soon, you'll be replacing your Netflix diet by reading documentation and watching tutorial videos on all the different options.
 
-1. We will use the command line today. Here are some basics.
+1. Learn by doing: today we will use the command line.
 2. Searching, copy-pasting, and asking the right questions.
 2. Install [Visual Studio Code](https://code.visualstudio.com/)
 3. [Install Node](https://nodejs.org/en/), or read the [Visual Studio Code tutorial on Node](https://code.visualstudio.com/docs/nodejs/nodejs-tutorial)
