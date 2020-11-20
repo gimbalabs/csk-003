@@ -59,14 +59,56 @@ The tools we'll use are choices, and we could choose others ([except perhaps for
 ---
 
 ## Part 4: Let's Build an App!
-1. Why I love [npm](https://www.npmjs.com/) 
+
+### Create React App
+1. Open Visual Studio Code and Open a new folder
 2. Create React App
-3. Bootstrap (document these steps)
+
+```
+$ npx create-react-app
+```
+
+3. Take a look at the folders and files in your React App.
+4. Start the app
+
+```
+$ npm start
+```
+
+5. We'll make changes to the file App.js. Change the title of the page and save the file.
+
+### Adding Bootstrap and Creating a Card
+
+1. Why I love [npm](https://www.npmjs.com/)
+2. Bootstrap
+
+```
+$ npm install bootstrap
+```
+
+3. package.json
+3. Bootstrap provides all sorts of styling options, built on CSS. We use "class" to target specific elements.
+
+### Creating a Simple Form to take User Input
+
+1. Hooks - abstractions
+2. Form fields -> HTML
+3. Form handling -> JavaScript
+
+### Calling the Messari API to Get Data
+
 4. Axios
 5. What we're doing
 
 Note the role of npm, want to go down that rabbit hole?
 Note that "hooks" are new, and were actually hard to learn, because devs had to unlearn certain things. You could say you're at an advantage if you're new here.
+
+### References:
+- https://reactjs.org/docs/create-a-new-react-app.html
+- https://create-react-app.dev/
+- https://getbootstrap.com/docs/4.0/components/card/
+
+
 
 ### Extensions:
 - Style your app to make it look better
