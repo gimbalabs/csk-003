@@ -145,7 +145,7 @@ import React, { useState, useEffect } from 'react';
 3. Now our app should work. Let's take a look at the difference between ```symbol``` and ```lookup```.
 
 ## Calling the Messari API to Get Data
-Application Programming Iterfaces, or APIs, allow us to send and receive data betweeen different apps. Some APIs are open and free, others restricted. Some, like Cardano, take a bit more setting up - so we'll get to that in a future CSK!
+Application Programming Interfaces, or APIs, allow us to send and receive data betweeen different apps. Some APIs are open and free, others restricted. Some, like Cardano, take a bit more setting up - so we'll get to that in a future CSK!
 
 Today we'll use [Messari's free API](https://messari.io/api/) to get data about the current price of different cryptocurrencies into our app. We will also use a package called Axios to simplify our API calls a bit.
 
@@ -180,7 +180,7 @@ useEffect(() => {
 
 5. Now, just like we display the values of ```symbol``` and ```lookup```, we can do the same with ```name``` and ```price```
 
-## Making it user friendly: what should we display before the user looks up a symbol?
+## Improving the User Experience: What should we display before the user looks up a symbol?
 With the following function, we can change the behavior of our card, before and after user input. We need to ```import``` Fragment in order for this code to work.
 
 ```
