@@ -1,7 +1,7 @@
 ## Part 4: Building a Crypto Quote App
 
 ### Create React App
-1. Open Visual Studio Code and Open a new folder
+1. In Visual Studio Code, Open a new folder
 2. Now that you have Node and npm installed, Create React App is a convenient way to start a new app.
 
 - https://reactjs.org/docs/create-a-new-react-app.html
@@ -14,14 +14,15 @@ $ npx create-react-app quote-app
 ```
 
 3. Take a look at the folders and files in your React App.
-4. On the command line, change the directory to "quote-app" and start the app with:
+4. On the command line, change the directory to ```quote-app``` and start the app with:
 
 ```
 $ cd quote-app
 $ npm start
 ```
+This launches your app in your "local" development environment, and you'll be able to see the app in your browser.
 
-5. We'll make changes to the file App.js. Change the title of the page and save the file.
+5. We'll make changes to the file ```App.js```. Change the ```<title></title>``` and ```<h1></h1>``` of the page and save the file.
 
 ### Adding Bootstrap and Creating a Card
 
@@ -32,13 +33,13 @@ $ npm start
 $ npm install bootstrap
 ```
 
-3. Note the new "dependency" in package.json
-4. Add this import to the index.js file:
+3. Note the new "dependency" in ```package.json```
+4. Add this import to the ```index.js``` file:
 
 ```
 import 'bootstrap/dist/css/bootstrap.css';
 ```
-5. Bootstrap provides all sorts of styling options, built on CSS. Use "class" to target specific elements.
+5. Bootstrap provides all sorts of styling options, built on CSS. Use ```class``` to target specific elements.
 6. Now that we have added Bootstrap to our project, we can create a [Card container](https://getbootstrap.com/docs/4.0/components/card/). Try adding this:
 
 ```
@@ -53,7 +54,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 ```
 ### The Magic of React: Separate, Re-usable Components
 
-1. In the /src directory, create a new file called Quote.js
+1. In the ```/src``` directory, create a new file called ```Quote.js```
 2. Create a new function called Quote - you can copy and paste the following:
 
 ```
@@ -67,7 +68,7 @@ function Quote() {
 
 export default Quote;
 ```
-3. Cut and paste our "card" markup inside the parentheses for return, so it looks like this:
+3. Cut and paste our "card" markup inside the parentheses for ```return```, so it looks like this:
 
 ```
 import React from 'react';
@@ -88,18 +89,18 @@ function Quote() {
 export default Quote;
 ```
 
-4. Make sure that you've removed the "card" markup from App.js, and replace it with <Quote />
+4. Make sure that you've removed the "card" markup from ```App.js```, and replace it with ```<Quote />```
 
-5. At the top of the App.js file, add an import statement for your new Quote component:
+5. At the top of the ```App.js``` file, add an ```import``` statement for your new ```Quote``` component:
 
 ```
 import Quote from './Quote';
 ```
 
 ### Creating a Simple Form to take User Input
-Next we'll add a form inside of Quote.js
+Next we'll add a form inside of ```Quote.js```
 
-1. Replace "This is a card!" with the following:
+1. Replace ```This is a card!``` with the following:
 
 ```
 <form onSubmit={handleSubmit}>
@@ -114,13 +115,13 @@ Next we'll add a form inside of Quote.js
 </form>
 ```
 
-2. Form elements like "input" and "submit" are built into HTML
-3. We added Bootstrap to our project, so the input field and the submit button are styled with Bootstrap's built in CSS
+2. Form elements like ```input``` and ```submit``` are built into HTML
+3. We added Bootstrap to our project, so the ```input``` field and the ```submit``` button are styled with Bootstrap's built-in CSS
 4. We will write some JavaScript to handle user interaction with the form.
 
 ### React Hooks
 To make a long story short, React Hooks provide an easier way for developers to create responsive, interactive apps.
-1. Import useState and useEffect
+1. Import ```useState``` and ```useEffect```
 ```
 import React, { useState, useEffect } from 'react';
 ```
@@ -135,7 +136,7 @@ import React, { useState, useEffect } from 'react';
   }
   
 ```
-3. Now our app should work. Let's take a look at the difference between symbol and lookup.
+3. Now our app should work. Let's take a look at the difference between ```symbol``` and ```lookup```.
 
 ### Calling the Messari API to Get Data
 Application Programming Iterfaces, or APIs, allow us to send and receive data betweeen different apps. Some APIs are open and free, others restricted. Some, like Cardano, take a bit more setting up - so we'll get to that in a future CSK!
@@ -155,9 +156,9 @@ import Axios from 'axios';
   const [name, setName] = useState ("");
   const [price, setPrice] = useState(0);
 ```
-Note the difference between the "initial states" of name and price.
+Note the difference between the "initial states" of ```name``` and ```price```.
 
-4. Below the handleSubmit() function and above the return(), add the following:
+4. Below the ```handleSubmit()``` function and above the ```return()```, add the following:
 ```
 useEffect(() => {
   async function fetchData() {
@@ -174,7 +175,7 @@ useEffect(() => {
 5. Now, just like we display the values of ```symbol``` and ```lookup```, we can do the same with ```name``` and ```price```
 
 ### Making it user friendly: what should we display before the user looks up a symbol?
-With the following function, we can change the behavior of our card, before and after user input.
+With the following function, we can change the behavior of our card, before and after user input. We need to ```import``` Fragment in order for this code to work.
 
 ```
 function coinInfo() {
@@ -197,12 +198,7 @@ function coinInfo() {
 }
 ```
 
-
-### References:
-
-
-
-
+Once we've created this ```coinInfo()``` function, we can call it inside the ```return()``` to render the appropriate ```<Fragment>``` on our card. 
 
 ### Extensions:
 - Style your app to make it look better
