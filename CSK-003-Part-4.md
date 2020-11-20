@@ -98,6 +98,7 @@ export default Quote;
 ```
 import Quote from './Quote';
 ```
+6. Look at how easy it is to re-use our ```Quote``` component! We can add as many as we'd like to the page!
 
 ## Creating a Simple Form to take User Input
 Next we'll add a form inside of ```Quote.js```
