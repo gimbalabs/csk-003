@@ -86,8 +86,25 @@ $ npm start
 $ npm install bootstrap
 ```
 
-3. package.json
-3. Bootstrap provides all sorts of styling options, built on CSS. We use "class" to target specific elements.
+3. Note the new "dependency" in package.json
+4. Add this import to the index.js file:
+
+```
+import 'bootstrap/dist/css/bootstrap.css';
+```
+5. Bootstrap provides all sorts of styling options, built on CSS. We use "class" to target specific elements.
+6. Now that we have added Bootstrap to our project, we can create a Card container. Try adding this:
+
+```
+<div class="card">
+  <div class="card-header">
+    Cardano Starter Kit #003
+  </div>
+  <div class="card-body">
+    This is a card!
+  </div>
+</div>
+```
 
 ### Creating a Simple Form to take User Input
 
