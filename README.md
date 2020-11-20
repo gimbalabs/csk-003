@@ -62,5 +62,14 @@ The tools we'll use are choices, and we could choose others ([except perhaps for
 
 ---
 
-## Part 4: Build an App
+## Part 4: Building an Interactive App with React, Bootstrap, and Axios
+Now that your development environment is ready, let's build an app.
 
+- [Full documentation is here](https://github.com/GimbaLabs/csk-003/blob/main/CSK-003-Part-4.md)
+- [Accompanying video on YouTube]()
+
+---
+
+## Continue Your Journey
+- What questions did this starter kit raise for you? What do you want to build next? [Join Gimbalabs on Discord](https://discord.gg/dErH6vS) to continue the conversation.
+- Learn more about building Dapps with the [Reach Tutorial](https://docs.reach.sh/)
