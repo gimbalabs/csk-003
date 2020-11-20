@@ -203,11 +203,14 @@ function coinInfo() {
 
 Once we've created this ```coinInfo()``` function, we can call it inside the ```return()``` to render the appropriate ```<Fragment>``` on our card. 
 
+### At this point, you should have a working app - congratulations!
+
 ## Extensions:
-- Style your app to make it look better
-- Add a different font from Google Fonts
-- Call additional data from Messari.io and add it to the app
+- Style your app to make it look better (read the [Bootstrap docs](https://getbootstrap.com/docs/4.0/getting-started/introduction/) to see what you can do)
+- Add a different font from [Google Fonts](https://fonts.google.com/)
+- Call additional data from the [Messari.io API](https://messari.io/api) and add it to the app
 - Curious using some of Bootstrap's JavaScript plugins? [Take a look here](https://getbootstrap.com/docs/4.5/getting-started/javascript/), and be sure to follow up with any questions you have.
 
-## Challenge:
+## Challenges:
 - Access your GitHub account from the command line and deploy your App to GitHub Pages. Here's an example. If enough people try this, I'll make a video about it.
+- Add some logic to ```Quote.js``` so that if a user inputs symbol that does not exist, your app returns some sort of error message.
