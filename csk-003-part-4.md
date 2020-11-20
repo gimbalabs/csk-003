@@ -1,6 +1,6 @@
-## Part 4: Building a Crypto Quote App
+# Part 4: Building an Interactive App with React, Bootstrap, and Axios
 
-### Create React App
+## Create React App
 1. In Visual Studio Code, Open a new folder
 2. Now that you have Node and npm installed, Create React App is a convenient way to start a new app.
 
@@ -24,7 +24,7 @@ This launches your app in your "local" development environment, and you'll be ab
 
 5. We'll make changes to the file ```App.js```. Change the ```<title></title>``` and ```<h1></h1>``` of the page and save the file.
 
-### Adding Bootstrap and Creating a Card
+## Adding Bootstrap and Creating a Card
 
 1. Why I love [npm](https://www.npmjs.com/)
 2. [Bootstrap](https://getbootstrap.com/) is a "front-end open source toolkit". Today we'll use just a little bit of the CSS that comes with Bootstrap. It also includes JavaScript plugins.
@@ -43,7 +43,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 6. Now that we have added Bootstrap to our project, we can create a [Card container](https://getbootstrap.com/docs/4.0/components/card/). Try adding this:
 
 ```
-<div class="card">
+<div class="card" style={{width: '25rem'}}>
   <div class="card-header">
     Cardano Starter Kit #003
   </div>
@@ -52,7 +52,7 @@ import 'bootstrap/dist/css/bootstrap.css';
   </div>
 </div>
 ```
-### The Magic of React: Separate, Re-usable Components
+## The Magic of React: Separate, Re-usable Components
 
 1. In the ```/src``` directory, create a new file called ```Quote.js```
 2. Create a new function called Quote - you can copy and paste the following:
@@ -97,21 +97,24 @@ export default Quote;
 import Quote from './Quote';
 ```
 
-### Creating a Simple Form to take User Input
+## Creating a Simple Form to take User Input
 Next we'll add a form inside of ```Quote.js```
 
 1. Replace ```This is a card!``` with the following:
 
 ```
 <form onSubmit={handleSubmit}>
-    <input
-      type="text"
-      value={symbol}
-      onChange={e => setSymbol(e.target.value)}
-    />
-  <br />
-  <br />
-  <input type="submit" value="Submit" />
+    <div className="form-group">
+        <label>Enter a symbol:</label>
+        <input
+        type="text"
+        class="form-control mb-2"
+        value={symbol}
+        onChange={e => setSymbol(e.target.value)}
+        />
+    </div>
+
+<input type="submit" value="Submit" />
 </form>
 ```
 
@@ -119,7 +122,7 @@ Next we'll add a form inside of ```Quote.js```
 3. We added Bootstrap to our project, so the ```input``` field and the ```submit``` button are styled with Bootstrap's built-in CSS
 4. We will write some JavaScript to handle user interaction with the form.
 
-### React Hooks
+## React Hooks
 To make a long story short, React Hooks provide an easier way for developers to create responsive, interactive apps.
 1. Import ```useState``` and ```useEffect```
 ```
@@ -138,7 +141,7 @@ import React, { useState, useEffect } from 'react';
 ```
 3. Now our app should work. Let's take a look at the difference between ```symbol``` and ```lookup```.
 
-### Calling the Messari API to Get Data
+## Calling the Messari API to Get Data
 Application Programming Iterfaces, or APIs, allow us to send and receive data betweeen different apps. Some APIs are open and free, others restricted. Some, like Cardano, take a bit more setting up - so we'll get to that in a future CSK!
 
 Today we'll use [Messari's free API](https://messari.io/api/) to get data about the current price of different cryptocurrencies into our app. We will also use a package called Axios to simplify our API calls a bit.
@@ -174,7 +177,7 @@ useEffect(() => {
 
 5. Now, just like we display the values of ```symbol``` and ```lookup```, we can do the same with ```name``` and ```price```
 
-### Making it user friendly: what should we display before the user looks up a symbol?
+## Making it user friendly: what should we display before the user looks up a symbol?
 With the following function, we can change the behavior of our card, before and after user input. We need to ```import``` Fragment in order for this code to work.
 
 ```
@@ -200,11 +203,11 @@ function coinInfo() {
 
 Once we've created this ```coinInfo()``` function, we can call it inside the ```return()``` to render the appropriate ```<Fragment>``` on our card. 
 
-### Extensions:
+## Extensions:
 - Style your app to make it look better
 - Add a different font from Google Fonts
 - Call additional data from Messari.io and add it to the app
 - Curious using some of Bootstrap's JavaScript plugins? [Take a look here](https://getbootstrap.com/docs/4.5/getting-started/javascript/), and be sure to follow up with any questions you have.
 
-### Challenge:
+## Challenge:
 - Access your GitHub account from the command line and deploy your App to GitHub Pages. Here's an example. If enough people try this, I'll make a video about it.
