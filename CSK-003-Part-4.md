@@ -20,9 +20,9 @@ $ npx create-react-app quote-app
 $ cd quote-app
 $ npm start
 ```
-This launches your app in your "local" development environment, and you'll be able to see the app in your browser.
+This launches your app in your "local" development environment, and you'll be able to see the app in your browser at [http://localhost:3000](http://localhost:3000).
 
-5. We'll make changes to the file ```App.js```. Change the ```<title></title>``` and ```<h1></h1>``` of the page and save the file.
+5. We'll make changes to the file ```App.js```. Change the text inside of the ```<p></p>``` tags, save the file, and note the changes in your browser.
 
 ## Adding Bootstrap and Creating a Card
 
