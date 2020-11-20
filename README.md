@@ -71,14 +71,17 @@ The tools we'll use are choices, and we could choose others ([except perhaps for
 - https://reactjs.org/docs/create-a-new-react-app.html
 - https://create-react-app.dev/
 
+We can create a new React App called "quote-app" with the following:
+
 ```
 $ npx create-react-app quote-app
 ```
 
 3. Take a look at the folders and files in your React App.
-4. Start the app
+4. On the command line, change the directory to "quote-app" and start the app with:
 
 ```
+$ cd quote-app
 $ npm start
 ```
 
@@ -217,6 +220,46 @@ import Axios from 'axios';
   const [price, setPrice] = useState(0);
 ```
 Note the difference between the "initial states" of name and price.
+
+4. Below the handleSubmit() function and above the return(), add the following:
+```
+useEffect(() => {
+  async function fetchData() {
+      const request = await Axios.get('https://data.messari.io/api/v1/assets/' + lookup + '/metrics/market-data');
+      setName(request.data.data.name);
+      setPrice(request.data.data.market_data.price_usd);
+      return request;
+  }
+
+  fetchData();
+}, [lookup]);
+```
+
+5. Now, just like we display the values of ```symbol``` and ```lookup```, we can do the same with ```name``` and ```price```
+
+### Making it user friendly: what should we display before the user looks up a symbol?
+With the following function, we can change the behavior of our card, before and after user input.
+
+```
+function coinInfo() {
+  if(lookup !== ""){
+    return(
+      <Fragment>
+        <p>Name: {name}</p>
+        <p>Price: {price}</p>  
+      </Fragment>
+    );
+  }
+  else{
+    return(
+      <Fragment>
+        <p>Name: Look up a coin</p>
+        <p>Price: Awaiting your input</p>
+      </Fragment>
+    );
+  }
+}
+```
 
 
 ### References:
