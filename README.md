@@ -1,5 +1,9 @@
 # Cardano Starter Kit #003
+## Where Does Blockchain Fit in the Development Stack?
 
+This CSK is an experiment in mobilizing people to get started on building web apps. If successful, this starter kit will help demystify app development a bit, and give you context for what "front end" web development entails.
+
+## Intended Audience
 You should use this Cardano Starter Kit if
 - You're brand new to web development and need a place to start
 - You have ideas for businesses and Dapps to be built on Cardano, and you're trying to get an idea of what that might entail
@@ -105,10 +109,69 @@ import 'bootstrap/dist/css/bootstrap.css';
   </div>
 </div>
 ```
+### The Magic of React: Separate, Re-usable Components
+
+1. In the /src directory, create a new file called Quote.js
+2. Create a new function called Quote - you can copy and paste the following:
+
+```
+import React from 'react';
+
+function Quote() {
+    return (
+        
+    )
+}
+
+export default Quote;
+```
+3. Cut and paste our "card" markup inside the parentheses for return, so it looks like this:
+
+```
+import React from 'react';
+
+function Quote() {
+    return (
+        <div class="card">
+         <div class="card-header">
+           Cardano Starter Kit #003
+         </div>
+         <div class="card-body">
+           This is a card!
+         </div>
+       </div>
+    )
+}
+
+export default Quote;
+```
+
+4. Make sure that you've removed the "card" markup from App.js, and replace it with <Quote />
+
+5. At the top of the App.js file, add an import statement for your new Quote component:
+
+```
+import Quote from './Quote';
+```
 
 ### Creating a Simple Form to take User Input
+Next we'll add a form inside of Quote.js
 
-1. Hooks - abstractions
+1. Replace "This is a card!" with the following:
+
+```
+<form onSubmit={handleSubmit}>
+    <input
+      type="text"
+      value={symbol}
+      onChange={e => setSymbol(e.target.value)}
+    />
+  <br />
+  <br />
+  <input type="submit" value="Submit" />
+</form>
+```
+Hooks - abstractions
 2. Form fields -> HTML
 3. Form handling -> JavaScript
 
