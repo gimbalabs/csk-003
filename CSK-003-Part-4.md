@@ -40,7 +40,7 @@ $ npm install bootstrap
 import 'bootstrap/dist/css/bootstrap.css';
 ```
 5. Bootstrap provides all sorts of styling options, built on CSS. Use ```class``` to target specific elements.
-6. Now that we have added Bootstrap to our project, we can create a [Card container](https://getbootstrap.com/docs/4.0/components/card/). Try adding this:
+6. Now that we have added Bootstrap to our project, we can create a [Card container](https://getbootstrap.com/docs/4.0/components/card/). Try replacing everything inside of the ```<header></header>``` tags with this:
 
 ```
 <div class="card" style={{width: '25rem'}}>
@@ -52,6 +52,8 @@ import 'bootstrap/dist/css/bootstrap.css';
   </div>
 </div>
 ```
+7. What happens if we remove the Bootstrap import from ```index.js```?
+
 ## The Magic of React: Separate, Re-usable Components
 
 1. In the ```/src``` directory, create a new file called ```Quote.js```
