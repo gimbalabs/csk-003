@@ -117,7 +117,7 @@ Next we'll add a form inside of ```Quote.js```
         />
     </div>
 
-<input type="submit" value="Submit" />
+    <input type="submit" value="Submit" />
 </form>
 ```
 
