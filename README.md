@@ -22,29 +22,29 @@ At the end of this Cardano Starter Kit, you will
 
 ## Video Links
 - [Part 1]()
-- [Part 2]()
-- [Part 3]()
-- [Part 4]()
+- [Part 2](https://youtu.be/Xkd2MJGR8UA)
+- [Part 3](https://youtu.be/8SHYJQVdZ5I)
+- [Part 4](https://youtu.be/GcAqg8o1qls)
 
 ---
 
 ## Part 1: Introduction
-- CSK videos are currently hosted on [YouTube](http://youtube.com)
-- Deck: pdf and Markdown files are here
-- Solutions are provided, but of course it's better not to look
+- CSK videos are currently hosted on [YouTube](https://www.youtube.com/playlist?list=PLfiIgLMz-N6F_697XNFVSyax38_9XH8bV)
+- Deck: pdf and Markdown files are included in this GitHub repository
+- Extensions and Challenges are provided
 
 ---
 
 ## Part 2: Party Like It's 1999
 To prepare to build a modern app, let's go back in time to build a basic web page using HTML, CSS and JavaScript.
 1. If you're brand new to GitHub, take a look at [CSK #001](https://workshopmaybe.com/learn/cardano-starter-kits/starter-kit-001/starter-kit-001a/)
-2. Follow along with [this video]()
+2. Follow along with [this video](https://youtu.be/Xkd2MJGR8UA)
 3. As shown in the video, you'll copy the template repository [CSK #003a](https://github.com/GimbaLabs/csk003a) to your GitHub account
  
 ---
 
 ## Part 3: Now We're Cooking
-[Accompanying video on YouTube]()
+[Accompanying video on YouTube](https://youtu.be/8SHYJQVdZ5I)
 
 When you're getting started, you might find that preparing to make software is harder than writing the code itself. Let's take a whirlwind tour of how to set up an environment where we can build something.
 
@@ -74,10 +74,10 @@ The tools we'll use are choices, and we could choose others ([except perhaps for
 Now that your development environment is ready, let's build an app.
 
 - [Full documentation](https://github.com/GimbaLabs/csk-003/blob/main/CSK-003-Part-4.md)
-- [Accompanying video on YouTube]()
+- [Accompanying video on YouTube](https://youtu.be/GcAqg8o1qls)
 
 ---
 
-## Continue Your Journey
+## Keep Learning
 - What questions did this starter kit raise for you? What do you want to build next? [Join Gimbalabs on Discord](https://discord.gg/dErH6vS) to continue the conversation.
 - Learn more about building Dapps with the [Reach Tutorial](https://docs.reach.sh/)
