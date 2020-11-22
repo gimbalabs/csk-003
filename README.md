@@ -41,12 +41,12 @@ All CSK #003 videos are currently hosted on [YouTube](https://www.youtube.com/pl
 2. What are some examples of protocols?
 3. Layered Protocols: the Internet Protocol Stack
 4. What do we mean by abstraction? 
-5. Many developers can focus only on the Application Layer -> The Web Development Stack, Simplified: Front End, Back End, Database + File System
-6. In fact, some only focus on HTTP - and understanding that is barely necessary: you use it
+5. Many developers focus only on the Application Layer of the Internet
+6. Many developers only need to think about HTTP/HTTPS
 7. So let's compare HTTP to a blockchain
-8. Cardano relies on an suite of protocols to run: here's a layered dive!
-9. Today, we'll focus only on the Front End --> Goals of this CSK
-10. Here's the list of tools we'll use; we'll also make an API call
+8. Cardano relies on an suite of protocols to run: see belowed for a "layered dive"
+9. Today, we'll focus only on "front-end" web development
+10. List of tools
 
 ### Read More: Internet Protocols
 - [Layers in the Internet Protocol Stack](https://web.sonoma.edu/users/f/farahman/sonoma/courses/es465/lectures/layer_description.pdf)
