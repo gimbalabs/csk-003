@@ -1,7 +1,11 @@
 # Cardano Starter Kit #003
 ## Where Does Blockchain Fit in the Development Stack?
 
-This CSK is an experiment in mobilizing people to get started on building web apps. If successful, this starter kit will help to demystify app development a bit, and give you context for what "front end" web development means.
+At Gimbalabs, our mission is to mobilize everyone in the Cardano community by creating tools and real-world use cases that ignite the public imagination and facilitate blockchain adoption. We envision a world where as many people as possible are empowered to solve problems using the Cardano platform.
+
+We believe that Cardano has the potential to redistribute power and access to opportunity in new ways -- and that there is no guarantee that this will happen. These outcomes are ideals that will come to life only through the efforts of people. These outcomes are more likely if more people understand, and can build with, the tools that Goguen and Voltaire, Marlowe and Plutus, Atala and Ergo will provide. A lot of what we build will be integrated with existing technology. For example, we're still going to use web-based apps - we'll just be able to do new things with them. Not everyone has to be a full-time developer, but what if the whole process of development was just a little less mysterious to just a few more people?
+
+This CSK is an experiment in mobilizing people to get started on building web-based apps. If successful, this starter kit will help to demystify app development a bit, and give you context for what "front end" web development means.
 
 ## Intended Audience
 You should use this Cardano Starter Kit if
