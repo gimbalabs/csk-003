@@ -3,9 +3,11 @@
 
 At Gimbalabs, our mission is to mobilize everyone in the Cardano community by creating tools and real-world use cases that ignite the public imagination and facilitate blockchain adoption. We envision a world where as many people as possible are empowered to solve problems using the Cardano platform.
 
-We believe that Cardano has the potential to redistribute power and access to opportunity in new ways -- and that there is no guarantee that this will happen. These outcomes are ideals that will come to life only through the efforts of people. These outcomes are more likely if more people understand, and can build with, the tools that Goguen and Voltaire, Marlowe and Plutus, Atala and Ergo will provide. A lot of what we build will be integrated with existing technology. For example, we're still going to use web-based apps -- we'll just be able to do new things with them. Not everyone has to be a full-time developer, but what if we could ensure that at the very least, everybody knows one?
+We believe that Cardano has the potential to redistribute power and access to opportunity in new ways -- and that there is no guarantee that this will happen. These outcomes are ideals that will come to life only through the efforts of people. These outcomes are more likely if more people understand, and can build with, the tools that Goguen and Voltaire, Marlowe and Plutus, Atala and Ergo will provide. A lot of what we build will be integrated with existing technology. For example, we're still going to use web-based apps -- we'll just be able to do new things with them. 
 
-This CSK is an experiment in mobilizing people to get started building web-based apps. If successful, this starter kit will help to demystify app development a bit, and give you context for what "front end" web development means.
+What sorts of things? A blockchain is not magic, it's just a protocol for transmitting trust. This starter kit begins with an overview of how blockchain fits in a development stack (don't worry, we'll spend a few minutes defining "development stack" too). Then, in order to help everyone prepare to build with Cardano, this starter kit provides a context for web development in 2020, along with suggestions for how to continue learning.
+
+Not everyone has to be a full-time developer, but what if we could ensure that at the very least, everybody knows one? This starter kit is an experiment in mobilizing people to get started building web-based apps. If successful, this starter kit will help to demystify app development a bit, and give you context for what "front end" web development means.
 
 ## Intended Audience
 You should use this Cardano Starter Kit if
