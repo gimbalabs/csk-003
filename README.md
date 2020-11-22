@@ -1,4 +1,7 @@
 # Cardano Starter Kit #003
+
+Note: This starter kit is a work in progress. Got ideas? A different way to say things? Be in touch!
+
 ## Where Does Blockchain Fit in the Development Stack?
 
 At Gimbalabs, our mission is to mobilize everyone in the Cardano community by creating tools and real-world use cases that ignite the public imagination and facilitate blockchain adoption. We envision a world where as many people as possible are empowered to solve problems using the Cardano platform.
