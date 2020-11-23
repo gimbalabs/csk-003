@@ -2,7 +2,7 @@
 
 Note: This starter kit is a work in progress. Got ideas? A different way to say things? Be in touch!
 
-All CSK #003 videos are currently hosted on [YouTube](https://www.youtube.com/playlist?list=PLfiIgLMz-N6F_697XNFVSyax38_9XH8bV)
+All [CSK #003 videos are currently hosted on YouTube](https://www.youtube.com/playlist?list=PLfiIgLMz-N6F_697XNFVSyax38_9XH8bV)
 
 ## Where Does Blockchain Fit in the Development Stack?
 
