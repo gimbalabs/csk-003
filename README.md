@@ -2,6 +2,8 @@
 
 Note: This starter kit is a work in progress. Got ideas? A different way to say things? Be in touch!
 
+All CSK #003 videos are currently hosted on [YouTube](https://www.youtube.com/playlist?list=PLfiIgLMz-N6F_697XNFVSyax38_9XH8bV)
+
 ## Where Does Blockchain Fit in the Development Stack?
 
 At Gimbalabs, our mission is to mobilize everyone in the Cardano community by creating tools and real-world use cases that ignite the public imagination and facilitate blockchain adoption. We envision a world where as many people as possible are empowered to solve problems using the Cardano platform.
@@ -38,7 +40,7 @@ At the end of this Cardano Starter Kit, you will
 ---
 
 ## Part 1: Introduction
-All CSK #003 videos are currently hosted on [YouTube](https://www.youtube.com/playlist?list=PLfiIgLMz-N6F_697XNFVSyax38_9XH8bV)
+[Accompanying video](https://youtu.be/uJi8a-xlbw8)
 
 ### Read More: Internet Protocols
 - [Layers in the Internet Protocol Stack](https://web.sonoma.edu/users/f/farahman/sonoma/courses/es465/lectures/layer_description.pdf)
