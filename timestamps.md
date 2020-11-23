@@ -39,3 +39,13 @@
 - 15:50 Install Node, or read the Visual Studio Code tutorial on Node
 - ** Make sure to pause the video and install Node before moving on ** 
 - 17:50 Running JavaScript files using Node
+
+## Part 4: Building an Interactive App with React, Bootstrap, and Axios
+- 0:00 Introduction
+- 2:31 Create React App
+- 9:50 Adding Bootstrap + Creating a Card
+- 22:35 The Magic of React: Separate, Reusable Components
+- 29:27 Creating a Simple Form to Take User Input
+- 34:19 React Hooks
+- 43:03 Calling the Messari API to Get Data
+- 59:12 Improving the User Experience
