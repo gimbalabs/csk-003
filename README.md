@@ -32,10 +32,7 @@ At the end of this Cardano Starter Kit, you will
 - Be on your journey toward learning more about building web apps.
 
 ## Video Links
-- [Part 1](https://youtu.be/uJi8a-xlbw8)
-- [Part 2](https://youtu.be/Xkd2MJGR8UA)
-- [Part 3](https://youtu.be/8SHYJQVdZ5I)
-- [Part 4](https://youtu.be/GcAqg8o1qls)
+[Part 1](https://youtu.be/uJi8a-xlbw8) | [Part 2](https://youtu.be/Xkd2MJGR8UA) | [Part 3](https://youtu.be/8SHYJQVdZ5I) | [Part 4](https://youtu.be/GcAqg8o1qls)
 
 ---
 
