@@ -1,9 +1,20 @@
 ## YouTube Links
 
-- [Part 1]()
+- [Part 1](https://youtu.be/uJi8a-xlbw8)
 - [Part 2](https://youtu.be/Xkd2MJGR8UA)
 - [Part 3](https://youtu.be/8SHYJQVdZ5I)
 - [Part 4](https://youtu.be/GcAqg8o1qls)
+
+## Part 1
+- 0:00 Introduction
+- 5:09 What is a protocol, and what are some examples of protocols? (https://nsrfharmony.org/protocols/)
+- 12:00 The Internet Protocol Suite: Layers and Abstraction
+- 18:22 "Layer 1" and "Layer 2" on a blockchain
+- 20:51 Web Developer Stack
+- 22:40 The HTTP Protocol vs Blockchain Protocols
+- 28:30 The focus of this CSK is front-end web development
+- 31:03 What Tools Will We Use?
+- 33:51 CSK 003 Documentation on GitHub
 
 ## Part 2
 - 0:00 Introduction
