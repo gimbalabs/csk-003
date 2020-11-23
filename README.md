@@ -30,7 +30,7 @@ At the end of this Cardano Starter Kit, you will
 - Be on your journey toward learning more about building web apps.
 
 ## Video Links
-- [Part 1]()
+- [Part 1](https://youtu.be/uJi8a-xlbw8)
 - [Part 2](https://youtu.be/Xkd2MJGR8UA)
 - [Part 3](https://youtu.be/8SHYJQVdZ5I)
 - [Part 4](https://youtu.be/GcAqg8o1qls)
@@ -39,17 +39,6 @@ At the end of this Cardano Starter Kit, you will
 
 ## Part 1: Introduction
 All CSK #003 videos are currently hosted on [YouTube](https://www.youtube.com/playlist?list=PLfiIgLMz-N6F_697XNFVSyax38_9XH8bV)
-
-1. What is a protocol?
-2. What are some examples of protocols?
-3. Layered Protocols: the Internet Protocol Stack
-4. What do we mean by abstraction? 
-5. Many developers focus only on the Application Layer of the Internet
-6. Many developers only need to think about HTTP/HTTPS
-7. So let's compare HTTP to a blockchain
-8. Cardano relies on an suite of protocols to run: see belowed for a "layered dive"
-9. Today, we'll focus only on "front-end" web development
-10. List of tools
 
 ### Read More: Internet Protocols
 - [Layers in the Internet Protocol Stack](https://web.sonoma.edu/users/f/farahman/sonoma/courses/es465/lectures/layer_description.pdf)
