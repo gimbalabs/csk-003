@@ -215,5 +215,5 @@ Once we've created this ```coinInfo()``` function, we can call it inside the ```
 - Curious using some of Bootstrap's JavaScript plugins? [Take a look here](https://getbootstrap.com/docs/4.5/getting-started/javascript/), and be sure to follow up with any questions you have.
 
 ## Challenges:
-- Access your GitHub account from the command line and deploy your App to GitHub Pages. Here's an example. If enough people try this, I'll make a video about it.
+- Access your GitHub account from the command line and deploy your App to GitHub Pages. [Here's an example](https://gimbalabs.com/#/playground). If enough people try this, I'll make a video about it.
 - Add some logic to ```Quote.js``` so that if a user inputs symbol that does not exist, your app returns some sort of error message.
